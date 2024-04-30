@@ -17,7 +17,7 @@ def show_splash_screen():
 
     splash.attributes('-alpha', 0)
 
-    splash_bg_image = PhotoImage(file="Images/Bg_Frame.png")
+    splash_bg_image = PhotoImage(file="Images/Splash_Frame.png")
 
     canvas = Canvas(splash, width=width_of_window, height=height_of_window, highlightthickness=0)
     canvas.pack()
