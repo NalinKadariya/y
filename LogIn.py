@@ -86,3 +86,5 @@ def create_login_window():
 
     app.wm_iconbitmap(logo_path)
     app.mainloop()
+
+create_login_window()
